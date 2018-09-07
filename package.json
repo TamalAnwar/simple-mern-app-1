@@ -11,9 +11,13 @@
     "dev": "concurrently \"yarn run server\" \"yarn run client\""
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
-    "mongoose": "^5.2.13"
+    "express-session": "^1.15.6",
+    "mongoose": "^5.2.13",
+    "passport": "^0.4.0",
+    "passport-local-mongoose": "^5.0.1"
   },
   "devDependencies": {
     "concurrently": "^4.0.1",
