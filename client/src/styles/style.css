@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.homepage-wrapper {
+  background: #efefef;
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  grid-gap: 10px;
+}
+
+.form input,
+.form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.register {
+}
